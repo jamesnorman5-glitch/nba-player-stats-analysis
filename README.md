@@ -12,6 +12,11 @@ The dataset was downloaded from Kaggle, where it was compiled using publicly ava
 
 One challenge I found when reviewing the data within the set is that several players are listed under multiple positions, such as SG-PG or PF-C, because they played multiple roles during the season.  For this project, those hybrid positions were removed so that only the five traditional positions (Point Guard, Shooting Guard, Small Forward, Power Forward, and Center) were compared.
 
+## Google Sheets
+
+Google Sheets analysis:
+https://docs.google.com/spreadsheets/d/16amOk6s_E21ZcgdHZF4X4VjhESmYA-T8V3VlLlTOdWE/edit?usp=sharing
+
 ## Data Analysis
 
 Google Sheets was used to analyze the dataset.  First, I imported the dataset into Google Sheets as a CSV file.  I then created pivot tables to compare points and minutes in correlation to positions.
@@ -24,11 +29,15 @@ The first chart compares the average points per game for each of the five tradit
 
 This visualization demonstrates how scoring responsibilities in today's NBA are often concentrated among guards, who typically control the offense and create scoring opportunities both for themselves and their teammates.  The bar chart makes it easy to compare scoring production across positions.
 
+![Average Points Per Game by Position](points.png)
+
 ## Visualization 2 – Average Minutes Per Game by Position
 
 The second chart compares the average minutes played per game for each position.  Point guards also averaged the most playing time, while centers, the lowest scorers, averaged the fewest minutes per game.  The remaining positions fell between these two extremes.
 
 This chart supports the findings from the first visualization by showing that the positions receiving the most playing time also tend to produce more points.  Coaches often keep their primary ball handlers and offensive creators on the floor longer because they have a greater impact on the game.
+
+![Average Minutes Per Game by Position](minutes.png)
 
 ## Ethical Considerations
 
